@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="RazorLight" Version="2.3.0" />
+	</ItemGroup>
+
+  <PropertyGroup>
+    <PackageId>Umbrella.Infrastructure.Templating</PackageId>
+    <Company>Innova Solutions</Company>
+    <Authors>FG</Authors>
+    <Description>Library to manage templates using different engine</Description>
+    <Copyright>FG 2023</Copyright>
+    <PackageProjectUrl>https://github.com/fgaravaglia/Umbrella.Infrastructure.Templating</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/fgaravaglia/Umbrella.Infrastructure.Templating</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="" />
+    <None Include="..\..\LICENSE" Pack="true" PackagePath="" />
+  </ItemGroup>
+</Project>

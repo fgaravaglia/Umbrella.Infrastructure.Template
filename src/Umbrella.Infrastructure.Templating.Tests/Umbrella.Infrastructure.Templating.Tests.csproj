@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<PreserveCompilationContext>true</PreserveCompilationContext>
+		<IsPackable>false</IsPackable>
+	</PropertyGroup>
+
+	<!--<ItemGroup>
+	  <None Remove="Razor\_EmbeddedLayout.cshtml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Razor\_EmbeddedLayout.cshtml">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	</ItemGroup>-->
+
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.4.0" />
+		<PackageReference Include="NUnit" Version="3.13.3" />
+		<PackageReference Include="NUnit3TestAdapter" Version="4.3.0" />
+		<PackageReference Include="coverlet.collector" Version="3.2.0">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Umbrella.Infrastructure.Templating\Umbrella.Infrastructure.Templating.csproj" />
+	</ItemGroup>
+
+	<!--<ItemGroup>
+	  <None Update="Razor\Shared\_Layout.cshtml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>-->
+
+	<ItemGroup>
+		<None Remove="Razor\Shared\_Layout.cshtml" />
+		<None Remove="Razor\_EmbeddedLayout.cshtml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Content Include="Razor\Shared\_Layout.cshtml">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+		<EmbeddedResource Include="Razor\_EmbeddedLayout.cshtml">
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>
+
+
