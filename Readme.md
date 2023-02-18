@@ -2,12 +2,12 @@
 Library to manage templates using different engine
 
 - [![Build Status](https://garaproject.visualstudio.com/UmbrellaFramework/_apis/build/status/Umbrella.Infrastructure.Template?branchName=main)](https://garaproject.visualstudio.com/UmbrellaFramework/_build/latest?definitionId=85&branchName=main)
-- [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
-- [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
-- [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
-- [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
-- [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
-- [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
+- [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Template&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Template)
+- [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Template&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Template)
+- [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Template&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Template)
+- [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Template&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Template)
+- [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Template&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Template)
+- [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Template&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Template)
 
 [![Nuget](https://img.shields.io/nuget/v/Umbrella.Infrastructure.Templating.svg?style=plastic)](https://www.nuget.org/packages/Umbrella.Infrastructure.Templating/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Umbrella.Infrastructure.Templating.svg)](https://www.nuget.org/packages/Umbrella.Infrastructure.Templating/)
