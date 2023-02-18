@@ -1,6 +1,7 @@
 # Umbrella.Infrastructure.Templating
 Library to manage templates using different engine
 
+- [![Build Status](https://garaproject.visualstudio.com/UmbrellaFramework/_apis/build/status/Umbrella.Infrastructure.Template?branchName=main)](https://garaproject.visualstudio.com/UmbrellaFramework/_build/latest?definitionId=85&branchName=main)
 - [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
 - [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
 - [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Infrastructure.Templating&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Umbrella.Infrastructure.Templating)
